@@ -1,0 +1,41 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@mui/icons-material": "^5.10.3",
+    "@mui/lab": "^5.0.0-alpha.99",
+    "@mui/material": "^5.10.4",
+    "axios": "^1.1.2",
+    "next": "12.2.5",
+    "next-translate": "^1.6.0",
+    "nprogress": "^0.2.0",
+    "react": "18.2.0",
+    "react-countup": "^6.3.1",
+    "react-dom": "18.2.0",
+    "react-scroll-trigger": "^0.6.14",
+    "react-slick": "^0.29.0",
+    "react-toastify": "^9.0.8",
+    "slick-carousel": "^1.8.1",
+    "ymaps": "^0.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.15",
+    "@types/nprogress": "^0.2.0",
+    "@types/react": "^18.0.18",
+    "eslint": "8.23.0",
+    "eslint-config-next": "12.2.5",
+    "typescript": "^4.8.2"
+  },
+  "engines": {
+    "node": "14.18.2"
+  }
+}

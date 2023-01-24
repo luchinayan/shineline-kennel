@@ -1,0 +1,69 @@
+.sectionDogInfoContainer {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionDogInfoText {
+    width: 25rem;
+    padding: 1rem;
+    font-size: 3.5rem;
+    margin: 3% 8% 0 0;
+}
+
+.dogInfoText {
+    text-align: justify;
+    font-size: clamp(0.9rem, 2vw, 1rem);
+    color: #8d8d8d;
+}
+
+.cavalierImgContainer {
+    width: 30%;
+    height: auto;
+}
+
+.cavalierImg {
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+}
+
+@media (max-width: 1024px) {
+    .dogInfoText {
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .sectionDogInfoText {
+        width: 15rem;
+        text-align: center;
+    }
+
+    .sectionDogInfoContainer {
+        height: auto;
+        margin: 1rem 0;
+    }
+}
+
+@media (max-width: 425px) {
+    .dogInfoText {
+        position: absolute;
+        margin: 5rem 3rem 0 0;
+    }
+
+    .sectionDogInfoText {
+        width: auto;
+    }
+
+    .cavalierImgContainer {
+        width: 40%;
+    }
+
+    .sectionDogInfoContainer {
+        height: auto;
+        margin: 5rem 1rem;
+    }
+
+}

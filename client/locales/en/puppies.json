@@ -1,0 +1,13 @@
+{
+  "PP-emailError": "Email is invalid",
+  "PP-highlightedTitle": "Puppies Cavalier",
+  "PP-highlighted": "King",
+  "PP-highlightedEndText": "Charles Spaniels",
+  "PP-puppies": "puppies are born",
+  "PP-highlightedTitleEmail": "Subscribe to",
+  "PP-highlightedEmail": "notification",
+  "PP-emailHint": "You can leave your e-mail and we will let you know if we have available puppies!",
+  "PP-sendBtn": "Send",
+  "PP-notificationSuccess": "Email was successfully sent",
+  "PP-notificationError": "Email already exists"
+}

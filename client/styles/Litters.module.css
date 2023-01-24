@@ -1,0 +1,36 @@
+.littersContainer {
+    display: flex;
+    justify-content: space-around;
+    margin: 2% 0;
+    flex-wrap: wrap;
+}
+
+.litter {
+    display: flex;
+    justify-content: center;
+    margin: 1% 0;
+    border: .1rem solid rgba(70, 70, 70, 0.1);
+    border-radius: 1rem;
+    padding: 1%;
+    flex-direction: column;
+    width: 20rem;
+    height: 25rem;
+}
+
+.litterImg:hover {
+    cursor: zoom-in;
+}
+
+.litterImg {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+    transform: scale(0.8);
+}
+
+.littersText {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 1rem 0;
+}

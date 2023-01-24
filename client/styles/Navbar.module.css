@@ -1,0 +1,47 @@
+.menuContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.7rem .3rem;
+    font-size: clamp(0.7rem, 2vw, 1rem)
+
+}
+
+.menuContainer > a {
+    color: #FF8411;
+    transition: 0.3s ease-in;
+    text-decoration: none;
+    font-size: clamp(1.2rem, 3vw, 1.5rem)
+}
+
+.menuContainer > a:hover {
+    color: #5a5959;
+    cursor: pointer;
+}
+
+.menuButton {
+    color: #FF8411;
+    transition: 0.3s ease-in;
+}
+
+.homePageLink {
+    color: #FF8411;
+    transition: 0.3s ease-in;
+}
+
+.homePageLink:hover {
+    color: #5a5959;
+    cursor: pointer;
+}
+
+.menuButton:hover {
+    color: #5a5959;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    font-family: MyFont, serif !important;
+}
+

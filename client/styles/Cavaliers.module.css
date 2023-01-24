@@ -1,0 +1,64 @@
+
+.cavaliersContainer {
+    display: flex;
+    justify-content: center;
+    margin: 2% 0;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cavaliersContainerSections {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.male {
+    width: 25%;
+    padding: 1%;
+    height: fit-content;
+}
+
+.female {
+    width: 45%;
+    padding: 1%;
+    height: fit-content;
+}
+
+.cavalierImg {
+    height: 100%;
+    width: 100%;
+    transition: 0.3s ease-in;
+    border-radius: 1rem;
+}
+
+.cavalierImg:hover {
+    cursor: pointer;
+    opacity: 70%;
+}
+
+.cavalierImgContainer {
+    padding: 1rem;
+    margin: 3rem 0;
+    border: .1rem solid #FF8411;
+    border-radius: 1rem;
+    width: 30%;
+}
+
+.cavalierImgContainer > p {
+    margin: 1rem;
+}
+
+.btn {
+    background: #FF8411;
+    border: #FF8411;
+    color: white;
+    margin: 0 1rem;
+}
+
+
+.btn:hover {
+    color: #5a5959;
+    background: #FF8411;
+    border: #FF8411;
+}

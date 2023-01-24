@@ -1,0 +1,32 @@
+.page404Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.whoops{
+    font-size: 5rem;
+    margin: 2% 0;
+    color: #FF8411;
+}
+.page404Description{
+    font-size: 1rem;
+    color: #8d8d8d;
+}
+.page404Text{
+    margin: 2% 0;
+    font-size: 1.3rem;
+}
+.suggestion{
+    margin: 3% 0;
+}
+.suggestionLink{
+    color: #FF8411;
+    transition: 0.2s ease-in;
+    text-decoration: none;
+}
+.suggestionLink:hover{
+    cursor: pointer;
+    color: #5a5959;
+    text-decoration: underline;
+}

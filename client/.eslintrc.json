@@ -1,0 +1,26 @@
+{
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "jsx-quotes": [
+      "error",
+      "prefer-single"
+    ],
+    "semi": [
+      "error",
+      "never"
+    ],
+    "no-multi-spaces": "error",
+    "no-mixed-spaces-and-tabs": "error",
+    "no-console": "warn",
+    "no-debugger": "warn",
+    "comma-dangle": "off",
+    "indent": [
+      "off"
+    ],
+    "object-curly-spacing": [
+      "error",
+      "never"
+    ],
+    "linebreak-style": 0
+  }
+}

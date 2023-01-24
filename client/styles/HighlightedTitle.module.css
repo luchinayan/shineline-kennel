@@ -1,0 +1,25 @@
+.highlightedTextContainer {
+    font-size: clamp(1.6rem, 4vw, 3.5rem)
+}
+
+.highlightedText {
+    color: #FF8411;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.hrLine {
+    margin: 1rem 0;
+    border: 0;
+    width: 40%;
+    height: 0;
+    border-top: 0.14rem solid rgba(0, 0, 0, 0.1);
+    border-bottom: 0.14rem solid rgba(255, 255, 255, 0.3);
+}
+
+@media (max-width: 425px) {
+    .hrLine {
+        display: none;
+    }
+}

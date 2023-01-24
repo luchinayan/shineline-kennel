@@ -1,0 +1,77 @@
+.kennelHistoryContainer {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.textContainer {
+    width: 25rem;
+    font-size: 3.5rem;
+    margin: 3% 6%;
+}
+
+.kennelHistoryInfo {
+    font-size: 1rem;
+    padding: 1rem 0;
+    text-align: justify;
+    color: #8d8d8d;
+    height: auto;
+}
+
+.carouselContainer {
+    width: 20rem;
+    margin: 1rem;
+}
+
+.carouselContainer > ul {
+    background-color: #FF8411;
+}
+
+.carouselImg {
+    margin: 0 auto;
+    border-radius: 1rem;
+    width: 100%;
+    height: 100%;
+}
+
+
+@media (max-width: 1024px) {
+    .mainPageText {
+        text-align: center;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    .kennelHistoryContainer {
+        flex-wrap: wrap;
+    }
+
+    .textContainer {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .kennelHistoryContainer {
+        height: auto;
+    }
+
+    .carouselContainer {
+        margin: 1rem 0 3rem 0;
+    }
+}
+
+@media (max-width: 425px) {
+    .textContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 7rem 0 2rem 0;
+    }
+
+}

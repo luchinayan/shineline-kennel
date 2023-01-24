@@ -1,0 +1,13 @@
+{
+  "PP-emailError": "Неверно введён электронный адрес",
+  "PP-highlightedTitle": "Щенки Кавалер",
+  "PP-highlighted": "Кинг",
+  "PP-highlightedEndText": "Чарльз Спаниель",
+  "PP-puppies": "щенки рождены бла бла",
+  "PP-highlightedTitleEmail": "Подписаться на",
+  "PP-highlightedEmail": "уведомления",
+  "PP-emailHint": "Вы можете оставить свой электронный адрес и мы дадим знать когда у нас появятся щенки!",
+  "PP-sendBtn": "Отправить",
+  "PP-notificationSuccess": "Email был успешно отправлен",
+  "PP-notificationError": "Такой Email уже существует"
+}

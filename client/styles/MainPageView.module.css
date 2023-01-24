@@ -1,0 +1,60 @@
+.mainView {
+    margin: 6% 0;
+}
+
+.mainView > img {
+    width: clamp(14rem, 100%, 27rem);
+    height: clamp(14rem, 100%, 27rem);
+}
+
+.mainViewContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.textContainer {
+    width: 25rem;
+    padding: 1rem;
+    font-size: 3.5rem;
+    margin: 3% 0 0 6%;
+}
+
+.mainPageText {
+    text-align: justify;
+    line-height: 1.2rem;
+    font-size: clamp(0.9rem, 2vw, 1rem);
+    margin: 0 1rem 0 0;
+    color: #8d8d8d;
+}
+
+@media (max-width: 1024px) {
+    .mainPageText {
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .mainViewContainer {
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media (max-width: 425px) {
+    .textContainer {
+        margin: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mainPageText {
+        margin: 1rem;
+    }
+
+}
+

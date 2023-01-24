@@ -1,0 +1,30 @@
+{
+  "locales": [
+    "en",
+    "ru"
+  ],
+  "defaultLocale": "ru",
+  "pages": {
+    "*": [
+      "navbar"
+    ],
+    "/": [
+      "index"
+    ],
+    "/about": [
+      "about"
+    ],
+    "/puppies": [
+      "puppies"
+    ],
+    "/litters": [
+      "litters"
+    ],
+    "/cavaliers": [
+      "cavaliers"
+    ],
+    "/contacts": [
+      "contacts"
+    ]
+  }
+}

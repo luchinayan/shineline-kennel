@@ -1,0 +1,77 @@
+.contactsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5% 0;
+}
+
+.contactsTitle {
+    font-size: clamp(3rem, 5vw, 5rem);
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    color: #FF8411;
+    margin-bottom: 5%;
+}
+
+.map {
+    width: 50%;
+    height: 35rem;
+    display: flex;
+    justify-content: center;
+}
+
+.contacts {
+    width: 50%;
+    height: 35rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FF8411;
+    color: white;
+    font-size: 2rem;
+}
+
+.mapContainer {
+    width: 100%;
+    height: 100%;
+}
+
+.contactsItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+    transition: 3s;
+
+}
+
+.contactsItem:not(:last-child) {
+    border-bottom: #5a5959 solid 1px;
+}
+
+
+.contactsItem > a {
+    color: white;
+    text-decoration: none;
+    margin: 0;
+    transition: .3s ease-in;
+}
+
+.contactsItem > a:hover {
+    color: #8d8d8d;
+}
+
+@media (max-width: 768px) {
+    .map {
+        width: 80%;
+        border: #8d8d8d solid;
+        margin: 0 0 5rem 0;
+    }
+
+    .contacts {
+        width: 100%;
+        margin: 0;
+    }
+}

@@ -1,0 +1,36 @@
+.pageNavigation {
+    position: fixed;
+    right: 1rem;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 13rem;
+}
+
+.pageNavigationDots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .2rem;
+    border-radius: 50%;
+    margin: 2rem 0 0 0;
+    transition: .1s;
+    border: .1rem solid white;
+}
+
+.pageNavigationDots:hover {
+    color: #FF8411;
+    cursor: pointer;
+    border: .1rem solid rgba(255, 132, 17, 0.3);
+}
+
+.pageNavigationDots:focus {
+    color: #FF8411;
+    border: .1rem solid rgba(255, 132, 17, 0.3);
+}
+
+@media (max-width: 1280px) {
+    .pageNavigation {
+        display: none;
+    }
+}

@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'MyFont';
+    src: local('MyFont'), url(./static/Comfortaa-Light.ttf) ;
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+}
+
+* {
+    font-family: MyFont, serif;
+    margin: 0;
+    padding: 0;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #FF8411 !important;
+    font-size: .7rem;
+}
+

@@ -1,0 +1,120 @@
+.aboutUsTextContainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: clamp(0.9rem, 2vw, 1rem);
+    margin: 3% 0 10% 0;
+}
+
+.aboutUsEssay {
+    padding: 1rem;
+    width: 30%;
+    height: 50%;
+    text-align: justify;
+}
+
+.aboutUsAwards {
+    background-color: hsl(29deg 100% 53% / 65%);
+    padding: 1rem;
+    border: 1rem;
+    width: 30%;
+    height: 50%;
+    border-radius: 1rem;
+}
+
+.statisticContainer {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 5% 0;
+}
+
+.imageDogs {
+    width: 40%;
+}
+
+.statisticText {
+    width: 30%;
+    text-align: justify;
+    margin: 1%;
+    font-size: clamp(0.9rem, 2vw, 1rem);
+    color: #8d8d8d;
+}
+
+.hrLine {
+    margin: 1rem 0;
+    border: 0;
+    width: 40%;
+    height: 0;
+    border-top: 0.14rem solid rgba(0, 0, 0, 0.1);
+    border-bottom: 0.14rem solid rgba(255, 255, 255, 0.3);
+}
+
+.statisticInfo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1% 0;
+    color: #FF8411;
+}
+
+.statisticInfo > div > p {
+    color: black;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.statisticIconContainer {
+    width: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.countUp {
+    font-size: 4rem;
+    color: black;
+    font-weight: bold;
+    margin: 10% 0;
+}
+
+@media (max-width: 1024px) {
+    .aboutUsEssay {
+        width: 40%;
+    }
+
+    .aboutUsAwards {
+        width: 40%;
+    }
+
+    .statisticContainer {
+        flex-wrap: wrap;
+    }
+
+    .imageDogs {
+        width: 60%;
+    }
+
+    .statisticText {
+        width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    .imageDogs {
+        width: 80%;
+    }
+
+    .aboutUsTextContainer {
+        flex-wrap: wrap;
+    }
+
+    .aboutUsEssay {
+        width: 80%;
+    }
+
+    .aboutUsAwards {
+        width: 80%;
+    }
+}

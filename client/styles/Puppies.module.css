@@ -1,0 +1,143 @@
+.puppiesContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.puppiesImg {
+    margin: 1rem;
+}
+
+.puppiesTextContainer {
+    width: 35%;
+    padding: 1rem;
+    font-size: 3.5rem;
+    margin: 0 1% 0 6%;
+}
+
+.input {
+    width: 70%;
+}
+
+.puppiesTextContainer > p {
+    font-size: 1rem;
+    text-align: justify;
+    color: #8d8d8d;
+}
+
+.puppiesSubContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 2rem 0;
+}
+
+.puppiesSubInput > p {
+    font-size: 1rem;
+    text-align: justify;
+    color: #8d8d8d;
+    margin: 1rem 0;
+}
+
+.puppiesSubInput {
+    font-size: 3.5rem;
+    padding: 1rem;
+    width: 35%;
+    margin: 0 6% 0 0;
+}
+
+.btn {
+    background: #FF8411;
+    border: #FF8411;
+    color: white;
+}
+
+.btn:hover {
+    color: #5a5959;
+    background: #FF8411;
+    border: #FF8411;
+}
+
+.invalidEmail {
+    font-size: 1rem;
+    color: red;
+}
+
+.invalidEmail > p {
+    margin: 0;
+}
+
+@media (max-width: 1024px) {
+    .puppiesSubImage {
+        width: 50%;
+    }
+
+
+    .puppiesTextContainer {
+        width: 40%;
+        margin: 0 1% 0 1%;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .puppiesTextContainer > p {
+        position: inherit;
+    }
+
+    .puppiesImg {
+        margin: 1rem;
+    }
+
+    .puppiesContainer {
+        height: auto;
+    }
+
+    .input {
+        width: 90%;
+    }
+
+    .puppiesTextContainer {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 1rem;
+    }
+
+    .puppiesContainer {
+        flex-wrap: wrap;
+        margin: 3rem 0 0 0;
+    }
+
+    .puppiesSubContainer {
+        flex-wrap: wrap;
+    }
+
+    .puppiesSubContainer {
+        margin: 7% 0 0 0;
+    }
+
+    .puppiesSubInput {
+        width: 80%;
+        margin: 0;
+    }
+
+    .puppiesSubImage {
+        width: 80%;
+        margin: 1rem 0;
+    }
+
+    .puppiesSubContainer {
+        height: auto;
+    }
+}
+
+@media (max-width: 425px) {
+    .puppiesSubContainer {
+        margin: 2% 0 0 0;
+    }
+
+}
